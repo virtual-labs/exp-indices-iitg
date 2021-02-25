@@ -89,22 +89,38 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.How to calculate Transverse Vertical Index?", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Basion -Bregma Height x 100 / Max. Cranial Breadth", ///// Write the option 1 inside double quotes
+                b: "Bregma Height x 100 / Max. Carnial Length", ///// Write the option 2 inside double quotes
+                c: "Upper Facial Height x 100 / Bizygomatic Breadth", ///// Write the option 2 inside double quotes
+                d: "None of the above", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "2. Which instrument is used to measure Maximum Cranial Breadth?",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+        a: "Spreading Caliper",                  ///// Write the option 1 inside double quotes
+        b: "Sliding Caliper",                  ///// Write the option 2 inside double quotes
+        c: "Vernier Caliper",  
+        d: "Pelvimeter",
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
+                         
+      {
+      question: "3. What is Opisthocranion ?",  ///// Write the question inside double quotes
+      answers: {
+        a: "is the most posterior point from the glabella in the mid-sagittal plane",                  ///// Write the option 1 inside double quotes
+        b: "excluding the inion",                  ///// Write the option 2 inside double quotes
+        c: "is the most prominent point between the two superaorbital",  
+        d: "both a and b",
+      },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    },
+                    
 
 
         
