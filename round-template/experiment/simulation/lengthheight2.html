@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        #mimg {
+            margin:100px auto auto auto;
+            height: 672px;
+            width: 864px;
+            border: 1px solid red;
+            background-image: url("image/lengthheightcranial.jpg");
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            position: center;
+            align-content:center;
+            align-items:center;
+        }
+        #scale2{
+            margin:600px auto auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: bottom;
+        }
+
+        /*#dot{
+            margin:70px auto auto auto;
+            margin-left: 100px;
+            height: 14px;
+            width: 32px;
+            border: 1px solid red;
+            float: left;
+        }*/
+        
+
+        //HORIZONTAL SCALES:    
+        #div2{
+            margin:auto 70px auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: auto; 
+        }
+        #div7{
+            margin:-400px 70px auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: auto; 
+        }
+        #div8{
+            margin:auto 70px auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: auto; 
+        }
+        #div9{
+            margin:auto 70px auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: auto; 
+        }
+        #div10{
+            margin:auto 70px auto auto;
+            height: 36px;
+            width: 697px;
+            //border: 1px solid red;
+            vertical-align: auto; 
+        }
+
+
+        a:link, a:visited {
+            margin:auto auto auto auto;
+            background-color: #5b5b5b;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin-left:870px;
+            margin-top:50px;
+            }
+
+        a:hover, a:active {
+            background-color: #414141;
+            }
+
+        body {
+            height: 100%;
+            background-color: #808080;
+        }
+       
+    </style>
+
+    <script>
+        function allowDrop(ev)
+        {
+            ev.preventDefault();
+        }
+
+        function drag(ev)
+        {
+            ev.dataTransfer.setData("Text",ev.target.id);
+        }
+
+        function drop(ev)
+        {
+            ev.preventDefault();
+            var data=ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
+</head>
+<body>
+    <div id="mimg" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <!--<div id="dot" ondrop="drop(event)" draggable="true" ondragover="allowDrop(event)">
+                <img id="drag1" src="image/dot1.png" draggable="true" ondragstart="drag(event)">
+                <img id="drag2" src="image/dot2.png" draggable="true" ondragstart="drag(event)">
+            </div>-->
+            
+            <div id="scale2" ondrop="drop(event)" draggable="true" ondragover="allowDrop(event)">
+                <img id="drag4" src="image/scale2.jpg" draggable="true" ondragstart="drag(event)">
+            </div>
+            
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <a href="index.html">List of Indices</a> 
+    <a href="calculate2.html">Next</a> 
+</body>
+</html>
