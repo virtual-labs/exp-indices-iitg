@@ -1,5 +1,3 @@
-### Procedure
-
 Procedure to be followed:
 
 
