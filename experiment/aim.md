@@ -1,2 +1,1 @@
-### Calculation of Indices
-Calculation of various craniometric indices
+#### Calculation of various craniometric indices
