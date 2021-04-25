@@ -1,1 +1,28 @@
-[{"question":"1.What is Craniometry?","answers":{"a":"concerned with the technique of measurement on the cranium","b":"Concerned with the technique of measurement on face of the skeleton.","c":" Both a and b","d":" None of above"},"correctAnswer":"c"},{"question":"2. How to calculate Cranial index?","answers":{"a":"Min. Cranial Breadth x 100 / Max. Cranial Length","b":"Bregma Height x 100 / Max. Carnial Length","c":"Max. Cranial Breadth x 100 / Max. Cranial Length","d":"None of above"},"correctAnswer":"c"},{"question":"3.What is Basion-Bregma?","answers":{"a":"The straight distance from the basion to bregma.","b":"Bregma (b) is the meeting point of the sagittal and coronal sutures","c":"Both a and b","d":"None of above"},"correctAnswer":"c"}]
+[{
+	"question": "1.What is Craniometry?",
+	"answers": {
+		"a": "concerned with the technique of measurement on the cranium",
+		"b": "Concerned with the technique of measurement on face of the skeleton.",
+		"c": " Both a and b",
+		"d": " None of above"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "2. How to calculate Cranial index?",
+	"answers": {
+		"a": "Min. Cranial Breadth x 100 / Max. Cranial Length",
+		"b": "Bregma Height x 100 / Max. Carnial Length",
+		"c": "Max. Cranial Breadth x 100 / Max. Cranial Length",
+		"d": "None of above"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "3.What is Basion-Bregma?",
+	"answers": {
+		"a": "The straight distance from the basion to bregma.",
+		"b": "Bregma (b) is the meeting point of the sagittal and coronal sutures",
+		"c": "Both a and b",
+		"d": "None of above"
+	},
+	"correctAnswer": "c"
+}]
